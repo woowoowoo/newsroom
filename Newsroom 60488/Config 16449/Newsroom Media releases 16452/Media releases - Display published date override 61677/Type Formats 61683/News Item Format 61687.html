@@ -1,0 +1,102 @@
+<article class="article-wrap max" itemscope itemtype="http://schema.org/Article">
+    %begin_asset_attribute_show_headline%
+        <h1 class="article-wrap__header">%asset_attribute_name%</h1>
+    %end_asset_attribute_show_headline%
+    <div class="article-wrap__main" itemprop="mainEntityOfPage">
+        <!--@@ Main article content @@-->
+        %begin_asset_thumbnail%
+            <figure class="figure">
+                <img src="%begin_asset_thumbnail_v_large_width^eq:800%%asset_thumbnail_v_large_url%%else_begin_asset_thumbnail_url%%asset_thumbnail_url%%end_asset_thumbnail_url%" alt="%asset_thumbnail_alt%">
+                %begin_asset_thumbnail_caption%<figcaption>%asset_thumbnail_caption%</figcaption>%end_asset_thumbnail_caption%
+            </figure>
+        %end_asset_thumbnail%
+        %begin_asset_attribute_show_summary%
+            %asset_attribute_summary%
+        %end_asset_attribute_show_summary%    
+        %begin_asset_attribute_show_body%
+            %asset_attribute_body%
+        %end_asset_attribute_show_body%
+    </div>
+    <footer role="contentinfo" class="article-wrap__aside">
+        <div class="article-wrap__aside-box">
+            <!--@@ TO DO: add in keyword @@-->
+            <h3>
+                <time datetime="%asset_metadata_date-override^date_format:Y-m-d%" itemprop="datePublished">%asset_metadata_date-override^date_format:j M Y%</time>
+                <!--@@ Print, but don't show dateModified - required for Article microformat  @@-->
+                <time class="hidden" datetime="%asset_metadata_date-override^date_format:Y-m-d%" itemprop="dateModified"></time>
+            </h3>
+            <div class="article-wrap__category-list">
+                <script runat="server">
+                        var tagList = %asset_metadata_category^json_decode%;
+                        var nameList = %asset_metadata_category^json_decode^as_asset:asset_name%;
+                            nameList.forEach(function(category,index) {
+                                print('<a class="article-wrap__category" href="./?a=37189?queries_category_query='+tagList[index]+'">'+category+'</a>');
+                          });  
+                </script>
+            </div> <!-- end category list -->
+        </div>
+        <div class="article-wrap__aside-box article-wrap__social">
+            <h3>
+                Share
+            </h3>
+            <ul class="social-list list-reset links-reset">
+                <li class="col-facebook">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=%asset_url%" title="Share on Facebook" aria-label="Share on Facebook" class="social-list__link">
+                        <svg width="25" height="25" focusable="false" role="presentation" aria-label="Facebook" class="social-list__icon">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="col-twitter">
+                    <a href="https://twitter.com/intent/tweet?text=%asset_attribute_name^replace:(\s):+%+%asset_url%" title="Tweet This" aria-label="Tweet This" class="social-list__link">
+                        <svg width="25" height="25" focusable="false" role="presentation" aria-label="Twitter" class="social-list__icon">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="col-linkedin">
+                    <a href="https://www.linkedin.com/shareArticle?title=%asset_attribute_name^replace:(\s):+%&amp;url=%asset_url%" title="Share on LinkedIn" aria-label="Share on LinkedIn" class="social-list__link">
+                        <svg width="25" height="25" focusable="false" role="presentation" aria-label="LinkedIn" class="social-list__icon">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="article-wrap__aside-box">
+            <h3>
+                Media contact
+            </h3>
+            <dl class="list-def article-wrap__contact-list">
+                %begin_asset_attribute_show_contact_name%
+                    <dt class="hidden">
+                        Name:
+                    </dt>
+                    <dd>
+                        <em>%begin_asset_attribute_contact_name%%asset_attribute_contact_name%%else_asset%Media team%end_asset%</em>
+                    </dd>
+                %end_asset_attribute_show_contact_name%
+                    <dt class="hidden">
+                        Email:
+                    </dt>
+                    <dd>
+                        %begin_asset_attribute_contact_email%<a href="mailto:%asset_attribute_contact_email%">%asset_attribute_contact_email%</a>%else_asset%<a href="mailto:news@media.unimelb.edu.au">news@media.unimelb.edu.au</a>%end_asset%
+                    </dd>   
+                %begin_asset_attribute_show_contact_phone%
+                    <dt class="hidden">
+                        Phone:
+                    </dt>
+                    <dd>
+                        %begin_asset_attribute_contact_phone%<a href="tel:%asset_attribute_contact_phone^replace: :%">%asset_attribute_contact_phone%</a>%else_asset%<a href="tel:+61383444123">+61 3 8344 4123</a>%end_asset%
+                    </dd>
+                %end_asset_attribute_show_contact_phone%
+            </dl>
+        </div>    
+        <div class="article-wrap__aside-box">
+            <p style="margin-bottom: 0">
+                <a href="https://findanexpert.unimelb.edu.au/" class="btn btn--xsml btn--icon btn--icon--chevron-right">Find an Expert</a>
+            </p>    
+        </div>    
+%globals_asset_contents_raw:62113% <!--@@ Related news @@-->
+    </footer>
+</article>
