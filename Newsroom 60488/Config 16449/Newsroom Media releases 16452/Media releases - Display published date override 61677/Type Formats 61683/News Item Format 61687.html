@@ -1,21 +1,35 @@
 <article class="article-wrap max" itemscope itemtype="http://schema.org/Article">
     %begin_asset_attribute_show_headline%
-        <h1 class="article-wrap__header">%asset_attribute_name%</h1>
+        <h1 class="article-wrap__header" id="article-title" tabindex="-1">%asset_attribute_name%</h1>
     %end_asset_attribute_show_headline%
     <div class="article-wrap__main" itemprop="mainEntityOfPage">
-        <!--@@ Main article content @@-->
-        %begin_asset_thumbnail%
-            <figure class="figure">
-                <img src="%begin_asset_thumbnail_v_large_width^eq:800%%asset_thumbnail_v_large_url%%else_begin_asset_thumbnail_url%%asset_thumbnail_url%%end_asset_thumbnail_url%" alt="%asset_thumbnail_alt%">
-                %begin_asset_thumbnail_caption%<figcaption>%asset_thumbnail_caption%</figcaption>%end_asset_thumbnail_caption%
-            </figure>
-        %end_asset_thumbnail%
-        %begin_asset_attribute_show_summary%
-            %asset_attribute_summary%
-        %end_asset_attribute_show_summary%    
-        %begin_asset_attribute_show_body%
-            %asset_attribute_body%
-        %end_asset_attribute_show_body%
+        <span id="article" aria-hidden="false">
+            <!--@@ Main article content @@-->
+            %begin_asset_thumbnail%
+                <figure class="figure">
+                    <img src="%begin_asset_thumbnail_v_large_width^eq:800%%asset_thumbnail_v_large_url%%else_begin_asset_thumbnail_url%%asset_thumbnail_url%%end_asset_thumbnail_url%" alt="%asset_thumbnail_alt%">
+                    %begin_asset_thumbnail_caption%<figcaption>%asset_thumbnail_caption%</figcaption>%end_asset_thumbnail_caption%
+                </figure>
+            %end_asset_thumbnail%
+            %begin_asset_attribute_show_summary%
+                %asset_attribute_summary%
+            %end_asset_attribute_show_summary%    
+            %begin_asset_attribute_show_body%
+                %asset_attribute_body%
+            %end_asset_attribute_show_body%
+        </span>
+<!--@@
+Replaced nested asset listings with SSJS to insert listing contents @@-->
+<script runat="server">
+    var children = %globals_asset_children^as_asset:asset_assetid,asset_type_code,asset_status_code%;
+    for (i = 0; i < children.length; i++) {
+        if (children[i].asset_type_code == "folder" && children[i].asset_status_code == 16) {
+            var mkFolder = children[i].asset_assetid;
+            print("%" + "globals_asset_contents_raw:100181^with_get:id=" + mkFolder + "%");
+        }
+    }
+</script>
+        
     </div>
     <footer role="contentinfo" class="article-wrap__aside">
         <div class="article-wrap__aside-box">
@@ -92,7 +106,19 @@
                 %end_asset_attribute_show_contact_phone%
             </dl>
         </div>    
-        <div class="article-wrap__aside-box">
+        <div class="article-wrap__aside-box"><!--@@
+Replaced asset listing with SSJS to insert button
+and made script remote file, only inserted when needed @@-->
+<script runat="server">
+    var scriptURL = "%globals_asset_url:107751%";
+    print("<script src=\'" + scriptURL + "\'><\/script>\n");
+    var children = %globals_asset_children^as_asset:asset_assetid,asset_type_code,asset_status_code%;
+    for (i = 0; i < children.length; i++) {
+        if (children[i].asset_type_code == "folder" && children[i].asset_status_code == 16) {
+    print("<p><button class='btn btn--xsml btn--icon btn--icon--chevron-right' onClick='toggleMediaKit()' id='mediaKitBttn'>Show Media Kit</button></p>");
+        }
+    }
+</script>
             <p style="margin-bottom: 0">
                 <a href="https://findanexpert.unimelb.edu.au/" class="btn btn--xsml btn--icon btn--icon--chevron-right">Find an Expert</a>
             </p>    
