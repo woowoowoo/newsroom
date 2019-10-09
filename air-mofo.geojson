@@ -1,0 +1,567 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "title": "banana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.041015625,
+          -42.293564192170074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Promised Land",
+        "description": "That singer, the one Jon confused. Maybe look up her ladies. Connecting one to that chalice could be valuable."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.20394650000003,
+          -41.4268088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Tarraleah",
+        "description": "Roses are red, my dog’s name is Doug, you won’t find Air Mofo anywhere around…"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.44940969999993,
+          -42.3018041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Oatlands ",
+        "description": "It has never snowed at the place where Air Mofo is parked. Well, we're pretty sure it hasn't."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.371307,
+          -42.299931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Penguin",
+        "description": "Some parts of Tassie are drier than Adelaide. Some parts of Tassie are little more moist. Air Mofo is hidden closer to the latter."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.072646,
+          -41.113374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Ben Lomond",
+        "description": "Almost 20% of Tassie is designated as a World Heritage Area. These bits are awesome. There are clues hidden in these areas, but no plane. That would be sacrilegious."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.66778,
+          -41.53376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Evercreech Reserve",
+        "description": "Too many trees to conceal a plane around here, so we didn't."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.04764,
+          -41.63523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Beaconsfield",
+        "description": "Phone it, Cally, for a vague place to start looking: some booze, a noise, a range and a dance. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.816833,
+          -41.20116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Maria Island ",
+        "description": "The more obtuse a clue, the more valuable it is. Probably."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.04865,
+          -42.62088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "wukalina Walk",
+        "description": "Gretzky holds half a decent place to keep in mind. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.29844,
+          -41.02322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Boat Harbour ",
+        "description": "Elvis is dead. Don’t bother looking at anything with his name on it."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.617382,
+          -40.93183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Shipsterns Bluff",
+        "description": "From Air Mofo’s hiding spot we can see a fence, and some forest, among other things."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.75194399999998,
+          -43.20916700000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Queenstown",
+        "description": "We considered this as a hiding place for Air Mofo, but in the end we just didn't dig it. Wasn't really our pick. Decided it was a schist spot. This isn't a clue, it's just mining puns. But the plane's nowhere near here, if that helps."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.556351,
+          -42.080029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Huonville",
+        "description": "Wassailing is the technical name for the whole 'singing drunkenly at trees' thing. Turns out it not only keeps away evil spirits, but huge purple planes as well, so take that as you will."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.04869,
+          -43.03042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Derby ",
+        "description": "Road Trip: Let’s go on a little trip. Trace your route as you go, then draw a straight line between where you finish and where you started. The area you’ve enclosed can be eliminated from your enquiries. Air Mofo ain’t there. Start at a Prime Minister north-east of here. Head south to France’s beautiful marshes. Keep rolling. Pass silica-strewn Vermillion William. Stick to the main drag, until you turn towards a wrong puncture. When you reach a major junction, flee to the option Lemon would, but continue past it. Eventually, you’ll start thinking you’re in Scotland. Stop there."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.800278,
+          -41.14521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Miena ",
+        "description": "Stray a little from Air Mofo’s location and you might catch conjunctivitis."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.723984,
+          -41.981781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bay of Fires",
+        "description": "The name of the place Air Mofo is hidden doesn’t contain an S or a P."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.31068,
+          -41.24942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "City Park",
+        "description": "I hear it’s not worth looking for Air Mofo around any negative-ass minks."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.142263,
+          -41.433243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bruny Island ",
+        "description": "The Air Mofo crew could probably do some good fishing near where the plane is hidden while they wait to be found."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.145996,
+          -43.490029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Strahan",
+        "description": "It might be handy to keep another map on hand once you’ve looked through all our locations—some clues will refer to places that aren’t marked on our map."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.329666,
+          -42.15189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Evandale",
+        "description": "If you want to catch an Uber from Government House to where Air Mofo is hidden it'll cost you about a week's rent. So probably not worth it. Be a bit of a walk at the end, too."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.248871,
+          -41.570969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Narawntapu National Park ",
+        "description": "When the wind is right, anyone standing where Air Mofo is can very faintly hear… engines? And while some might be cars, others definitely aren’t."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.655585,
+          -41.112645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Mona Foma",
+        "description": "Don't forget—read all the other clues. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.141033,
+          -41.428111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "New Norfolk ",
+        "description": "Certain activities are prohibited in the area around where Air Mofo is hidden."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.06367,
+          -42.78071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Strathgordon ",
+        "description": "Air Mofo is very close to some water. No bullshit, no foolin’."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.04522,
+          -42.76679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Ross",
+        "description": "All this talk of construction has reminded us that there's an interesting man-made something quite close to where Air Mofo is hidden. It's not a sandstone bridge. Or a sandstone pub."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.492859,
+          -42.027962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "King Island ",
+        "description": "A star is drawn: Find five points to draw a (slightly lopsided) star. You won't find Air Mofo in the area inside the star. 1: Ross? Glenn? One more? 2: Veni, vidi, vitrum vinum. 3: Good ol’ Liz really digs this place, too? 4: Every day when you're walking down the street, everybody that you meet… Ships a slightly liberal point of view. 5: Please, Matt. Please say it. Say it rn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.98577,
+          -39.86863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Southwest National Park ",
+        "description": "This entire competition is definitely not part of an illuminati-based conspiracy theory, so don’t bother looking anywhere near the secret glass pyramids we’ve erected (and filled with pizzas) on Bruny Island."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.148407,
+          -43.184376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Little Blue Lake",
+        "description": "Don’t go looking where all the people are. Air Mofo is not where many people are."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.940652,
+          -41.010892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bothwell ",
+        "description": "Join the dots: Solve all four of these clues then join the places to box out an area you can ignore. 1: Tawny Kevin Kline classic (ish)? 2: Kinda sounds like a bear ate my headgear. 3: Don’t you have enough? It seems like you have enough. 4: Left-handed pugilist meets Earl Grey. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.00904,
+          -42.38436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Flinders Island ",
+        "description": "You stand as much chance of finding Air Mofo on Flinders as you do of reeling in a salmon at North East River."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.093119,
+          -40.027404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Mount Field",
+        "description": "Sandy siblings make a beeline for Spiegelman’s muddled tome. They come close."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.618958,
+          -42.680908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Marrawah",
+        "description": "Marrawah sits pretty close to the second-westernmost point on the Tasmanian mainland. Not much of a clue, but interesting. Nothing out west from here but South America."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.681611,
+          -40.926549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "The Far South",
+        "description": "Quite a few clues will tell you where Air Mofo isn't."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.91954,
+          -43.41224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Cradle Mountain",
+        "description": "A simple clue: read all the clues. Even the ones that don’t seem helpful probably are. And just like a crossword, some are straight, some are cryptic. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.17605,
+          -42.070184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Marion Bay",
+        "description": "Some dude built a castle out in the bay near here. It's crazy and huge and crazy. We did not hide Air Mofo anywhere near him or his huge castle house."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.869574,
+          -42.820563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Table Cape ",
+        "description": "Axes."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.70912,
+          -40.95553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Barnbougle",
+        "description": "You could drive to Air Mofo’s location, but you’d need to get someone's permission for the last bit."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.450167,
+          -41.003899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Liffey Falls ",
+        "description": "Pretty serene here. Nice and calming. Shit place to hide a 737, so we didn't. Don't bother looking around here. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.8427,
+          -41.65897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Mona",
+        "description": "Here’s somewhere Air Mofo isn’t: the carpark between the Sorell RSL and the medical centre. Nowhere near there. Good guess, though."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.2608801,
+          -42.812131
+        ]
+      }
+    }
+  ]
+}
